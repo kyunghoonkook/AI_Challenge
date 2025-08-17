@@ -4,7 +4,6 @@ import CommonSettings from './components/CommonSettings';
 import JobCategorySection from './components/JobCategorySection';
 import FilterSection from './components/FilterSection';
 import ResultButton from './components/ResultButton';
-import { useSearchStore } from './store/searchStore';
 
 // JSON 데이터 (실제로는 API에서 가져옴)
 const conditionData = {
